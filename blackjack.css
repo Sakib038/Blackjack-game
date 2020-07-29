@@ -1,0 +1,65 @@
+.container1{
+width: 75%;
+border: 1px solid black;
+margin:0 auto;
+text-align: center;
+background-image: url("bj-bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.flex-bj-row-1{
+    display: flex;
+    border: 1px solid white;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+@media screen and (max-width: 600px) {
+    .container1 {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .flex-bj-row-1 img{
+        width: 148px;
+        padding: 2px;
+    }
+}
+.flex-bj-row-1 div{
+height: 400px;
+padding: 10px;
+text-align: center;
+flex: 1;
+border:2px solid white;
+}
+.flex-bj-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+h2,h3{
+color: white;
+}
+table,th,td,tr{
+    color:white;
+    margin: auto;
+    border:1px solid  white;
+    height: 20px;
+}
+
+.flex-bj-row-2{
+ margin: auto;
+ padding-left: 300px; 
+ padding-right: 300px;  
+}
+.flex-bj-row-3{
+    margin: auto;
+    padding-left: 300px; 
+    padding-right: 300px;  
+   }
+   .flex-bj-row-3, .flex-bj-row-2{
+    border: 1px solid white;
+    padding: 10px;    
+   }
+   #bj-rst-btn{
+       margin-top: 10px;
+   }
